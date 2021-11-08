@@ -4,6 +4,8 @@ body {
 
 
     padding-top: 800px;
+
+    text-align: center;
 }
 
 .profile {
@@ -49,11 +51,7 @@ body {
 
     height: 100%;
 
-
     text-align: center;
-
-
-
 }
 
 
@@ -182,7 +180,7 @@ p {
 
     float: left;
 
-    color: aquamarine;
+    color: black;
 
     padding-top: 2px;
 
@@ -191,15 +189,28 @@ p {
     padding-bottom: 5px;
 
     padding-right: 0px;
-    
+
     font-family: monospace;
-    
+
     font-size: 20px;
-    
+
 }
 
-.link: hover{
-    
-  background-color:aqua;  
-} 
+.link: hover {
 
+    background-color: aqua;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover{
+  color: aqua;
+
+}
+
+html{
+    
+    scroll-behavior: smooth;
+}
